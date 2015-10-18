@@ -1,6 +1,6 @@
 #OpenOrder
 
-##Integrantes del proyecto
+##Integrantes del proyecto conjunto
 - Jose Ignacio Recuerda Cambil
 - **Antonio Miguel Pozo Cámara**
 - Ignacio Romero Cabrerizo
