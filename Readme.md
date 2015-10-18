@@ -18,7 +18,7 @@ Enlace para encontrar la descripción e información del proyecto (en construcci
 ##Introducción a la aplicación
 El proyecto se encuentra en un punto inicial, con forme vaya avanzando su desarrollo se dará la necesidad de utilizar distintas herramientas, las cuales se citarán **aquí**.
 No obstante, se tiene la intención de utilizar las herramientas que proporciona la plataforma de informática en la nube Microsoft Azure.
-Ya se dispone del [servicio web](openorder.azurewebsites.net) y próximamente se definirá el servicio de base de datos necesaria para dar servicio a las aplicaciones "cliente" del proyecto.
+Ya se dispone del [servicio web](openorder.azurewebsites.net) y del servicio de base de datos necesario para dar servicio a las aplicaciones de comercio y de usuario del proyecto.
 
 ##Participación en el certamen de proyectos de libres de la UGR
 Este proyecto se ha inscrito en el certamen de proyectos libres de la UGR.
