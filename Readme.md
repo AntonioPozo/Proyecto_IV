@@ -16,7 +16,7 @@ Daré servicio a las dos aplicaciones que conforman el proyecto, la [aplicación
 Enlace para encontrar la descripción e información del proyecto (en construcción).
 
 ##Introducción a la aplicación
-Utilizaré Django, Python, Google app Engine. No se descarta la utilización de más herramientas.
+Utilizaré Django, Python, Google app Engine. El proyecto se encuentra en un punto inicial, con forme vaya avanzando su desarrollo se dará la necesidad de utilizar herramientas, las cuales se citarán aquí.
 
 ##Participación en el certamen de proyectos de libres de la UGR
 Este proyecto se ha inscrito en el certamen de proyectos libres de la UGR.
