@@ -2,7 +2,7 @@
 
 ##Integrantes del proyecto
 - Jose Ignacio Recuerda Cambil
-- *Antonio Miguel Pozo Cámara*
+- **Antonio Miguel Pozo Cámara**
 - Ignacio Romero Cabrerizo
 
 ##Descripción
