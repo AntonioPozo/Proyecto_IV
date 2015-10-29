@@ -29,7 +29,14 @@ Este proyecto se ha inscrito en el certamen de proyectos libres de la UGR.
 ###Integración contínua
 Para la integración contínua he utilizado las herramientas que nos ofrece Microsot Azure para ello. A continuación una captura del sistema de integración contínua funcionando:
 
-![integración contínua](http://s2.subirimagenes.com/imagen/previo/thump_9485832imementacioncontinua.png)
+![integración contínua azure](http://s2.subirimagenes.com/imagen/previo/thump_9485832imementacioncontinua.png)
+
+También se está haciendo uso de Travis. A continuación una captura del funcionamiento:
+![integración contínua travis](http://s2.subirimagenes.com/imagen/previo/thump_9485902travis.png)
+
+Éste sistema informa mediante correo electrónico el resultado de los test:
+
+![correo confirmación](http://s2.subirimagenes.com/imagen/previo/thump_9485904correo.png)
 
 
 ###Sistema de pruebas
