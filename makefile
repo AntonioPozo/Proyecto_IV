@@ -1,0 +1,9 @@
+# test:
+#     ./node_modules/.bin/mocha --reporter spec
+
+#  .PHONY: test
+
+
+test:
+	./test/test.js --reporter spec
+.PHONY: test
