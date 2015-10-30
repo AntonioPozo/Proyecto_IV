@@ -26,18 +26,6 @@ Este proyecto se ha inscrito en el certamen de proyectos libres de la UGR.
 
 
 ##	-Segundo Hito-
-###Integración contínua
-Para la integración contínua he utilizado las herramientas que nos ofrece Microsot Azure para ello. A continuación una captura del sistema de integración contínua funcionando:
-
-![integración contínua azure](http://s2.subirimagenes.com/imagen/previo/thump_9485832imementacioncontinua.png)
-
-También se está haciendo uso de Travis. A continuación una captura del funcionamiento:
-![integración contínua travis](http://s2.subirimagenes.com/imagen/previo/thump_9485902travis.png)
-
-Éste sistema informa mediante correo electrónico el resultado de los test:
-
-![correo confirmación](http://s2.subirimagenes.com/imagen/previo/thump_9485904correo.png)
-
 
 ###Sistema de pruebas
 
@@ -57,5 +45,25 @@ describe('Miweb', function(){
 ```
 
 Ejecutamos mocha:
+
 ![haciendo test](http://s2.subirimagenes.com/imagen/previo/thump_9485866test.png)
-Nota: en los [ejercicios del tema 2](https://github.com/AntonioPozo/IV-2015-16/blob/master/ejercicios/AntonioPozo/Tema2.md) se detalla el proceso de instalación de nvm. 
+
+**Nota:** en los [ejercicios del tema 2](https://github.com/AntonioPozo/IV-2015-16/blob/master/ejercicios/AntonioPozo/Tema2.md) se detalla el proceso de instalación de nvm. 
+
+Herramienta para ejecutar los test de forma automática. sólo tenemos que teclear make test:
+![makefile](http://s2.subirimagenes.com/imagen/previo/thump_9486182makefile.png)
+
+
+###Integración contínua
+Para la integración contínua he utilizado las herramientas que nos ofrece Microsot Azure para ello. A continuación una captura del sistema de integración contínua funcionando:
+
+![integración contínua azure](http://s2.subirimagenes.com/imagen/previo/thump_9485832imementacioncontinua.png)
+
+También se está haciendo uso de Travis. A continuación una captura del funcionamiento:
+![integración contínua travis](http://s2.subirimagenes.com/imagen/previo/thump_9485902travis.png)
+
+Éste sistema informa mediante correo electrónico el resultado de los test:
+
+![correo confirmación](http://s2.subirimagenes.com/imagen/previo/thump_9485904correo.png)
+
+
