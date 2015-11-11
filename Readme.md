@@ -1,4 +1,5 @@
 #OpenOrder
+[![Build Status](https://travis-ci.org/AntonioPozo/Proyecto_IV-OpenOrder.svg?branch=master)](https://travis-ci.org/AntonioPozo/Proyecto_IV-OpenOrder)
 
 ##-Primer Hito-
 ###Integrantes del proyecto conjunto
