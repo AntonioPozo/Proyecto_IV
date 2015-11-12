@@ -1,6 +1,6 @@
 #OpenOrder
 [![Build Status](https://travis-ci.org/AntonioPozo/Proyecto_IV-OpenOrder.svg?branch=master)](https://travis-ci.org/AntonioPozo/Proyecto_IV-OpenOrder)
-
+[![Heroku](https://www.herokucdn.com/deploy/button.png)](http://stadisticsopenorder.herokuapp.com)
 ##-Primer Hito-
 ###Integrantes del proyecto conjunto
 - Jose Ignacio Recuerda Cambil
@@ -67,4 +67,30 @@ También se está haciendo uso de Travis. A continuación una captura del funcio
 
 ![correo confirmación](http://s2.subirimagenes.com/imagen/previo/thump_9485904correo.png)
 
+
+##	-Tercer Hito-
+
+###Despliegue en un PaaS: Heroku
+
+Para el despliegue de la aplicación se va a usar HEROKU como PaaS (Platform as a Service), debido a su gran integración con GitHub y la facilidad de uso. Además permite el despliegue de aplicaciones de forma gratuita, a pesar de tener algunas restricciones, será suficiente para nuestro proyecto.
+
+Añadimos al repositorio el fichero [Procfile](https://github.com/AntonioPozo/Proyecto_IV-OpenOrder/blob/master/Procfile)
+
+```
+web: node.js
+
+```
+y el fichero [requirements.txt](https://github.com/AntonioPozo/Proyecto_IV-OpenOrder/blob/master/requirements.txt)
+
+```
+pip freeze > requirements.txt
+
+```
+En el repositorio del proyecto ejecutamos las siguientes órdenes:
+
+1.  heroku create
+2.  git push heroku master
+3.  heroku ps:scale web=1
+4.  heroku open
+Con esto la aplicación queda desplegada en [Heroku](http://stadisticsopenorder.herokuapp.com)
 
